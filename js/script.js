@@ -109,7 +109,7 @@ function BuscarCliente(){
     var cpf = $("#txtCPFCliente").val().replace("-","").replace(".","").replace(".","");
     if(TestaCPF(cpf))
     {
-        let url = enderecoAPI + "get_cliente_por_cpf/"+cpf;
+        let url = enderecoAPI + "get_cliente_por_cpf/?cpf="+cpf;
         fetch(url, {
             method: 'get',
         })
