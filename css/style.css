@@ -1,0 +1,7 @@
+.alertaInativo {
+    display: none
+  }
+
+.alertaAtivo {
+display: block!important;
+}
