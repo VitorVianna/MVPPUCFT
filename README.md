@@ -7,3 +7,6 @@ O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
 
 Como executar
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
+
+IMPORTANTE:
+Caso a rota da API seja alterada, deve ser alterada a variável "enderecoAPI" localizada no arquivo js/script.js. 
