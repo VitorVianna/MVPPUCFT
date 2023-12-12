@@ -17,3 +17,6 @@ Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
 Caso a rota da API seja alterada, deve ser alterada a variável 'enderecoAPI' localizada no arquivo js/script.js. 
 
 O sistema foi desenvolvido usando HTML, JavaScript, CSS e Bootstrap.
+
+## Demonstração:
+https://photos.app.goo.gl/y2tJBVRcA6PXHf6p9
