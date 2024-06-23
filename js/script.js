@@ -1,4 +1,4 @@
- let enderecoAPI = "http://192.168.1.8:5000/"
+ let enderecoAPI = "http://localhost:5000/"
  var idCliente = 0;
  ListarProfissionais();
  ListarAgendaCompleta();
