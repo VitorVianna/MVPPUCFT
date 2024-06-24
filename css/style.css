@@ -5,3 +5,26 @@
 .alertaAtivo {
 display: block!important;
 }
+
+/* Slider */
+
+.container-fluid {
+  padding: 0;
+}
+
+
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
