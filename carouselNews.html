@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.0/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="font/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>News</title>
@@ -29,14 +30,55 @@
                         <img src="images/previsaotempo.jpg" class="d-block w-100">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Finanças</h2>
-                            <p>Aqui ficarão as informações de moedas.</p>
+                            <table class="table table-bordered">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Paridade</th>
+                                    <th scope="col">Valor</th>
+                                    <th scope="col">Conversão</th>
+                                    <th scope="col">Variação</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>USD-BRL</td>
+                                    <td>1</td>
+                                    <td id="conversaoDolarReal"></td>
+                                    <td id="setaDolarReal"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>EUR-BRL</td>
+                                    <td>1</td>
+                                    <td id="conversaoEuroReal"></td>
+                                    <td id="setaEuroReal"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>BTC-BRL</td>
+                                    <td>1</td>
+                                    <td id="conversaoBitReal"></td>
+                                    <td id="setaBitReal"></td>
+                                  </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/previsaotempo.jpg" class="d-block w-100">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Previsão do Tempo</h2>
-                            <p>Aqui ficarão as informações de tempo.</p>
+                            <table id="tablePrevisaoTempo" class="table table-bordered">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Dia</th>
+                                    <th scope="col">Min</th>
+                                    <th scope="col">Max</th>
+                                    <th scope="col">Condição</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -96,5 +138,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
     <script src="js/news.js"></script>
+    <script type="text/javascript" src="appSettings.json"></script>
   </body>
 </html>
