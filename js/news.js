@@ -9,6 +9,11 @@ let urlAPINoticias = "https://servicodados.ibge.gov.br/api/v3/noticias/?de";
 listarConversoes();
 previsaoTempo();
 listarNoticias();
+setTimeout(atualizarPagina, 300000);
+
+function atualizarPagina(){
+    location.reload()
+}
 
 function listarConversoes(){
     fetch(urlAPIConversao, {
@@ -56,7 +61,6 @@ function previsaoTempo(){
     console.error('Error:', error);
     });
 }
-
 
 function listarNoticias(){
     var horaAtual = new Date().getHours();
