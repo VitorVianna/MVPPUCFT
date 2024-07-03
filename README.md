@@ -11,10 +11,10 @@ Foi implementado também o arquivo Dockerfile, com o objetivo de poder executar 
 Nesta documentação, abaixo existirão 2 links para vídeos, o primeiro foi desenvolvido para explicar os conceitos básicos, para a disciplina **Desenvolvimento Full Stack Básico**. O segundo, mais abaixo, foi desenvolvido para explicar os conceitos da utilização do Docker, bem como a utilização das APIs externas extras, para a disciplina **Arquitetura de Software**.
 
 As APIs externas são:
-- **Via CEP** (esta já havia sido implementada) - Com o objetivo de listar o endereço do cliente a partir do CEP.
-- **Economia** - Para trazer informações atualizadas de câmbio.
-- **IBGE.GOV** - Para trazer notícias atualizadas.
-- **HG Brasil** - Para trazer informações de Previsão do Tempo atualizada.
+- **Via CEP** (esta já havia sido implementada) - Com o objetivo de listar o endereço do cliente a partir do CEP. [Documentação](http://viacep.com.br/)
+- **Economia** - Para trazer informações atualizadas de câmbio. [Documentação](https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL)
+- **IBGE.GOV** - Para trazer notícias atualizadas. [Documentação](https://servicodados.ibge.gov.br/api/docs/noticias?versao=3)
+- **HG Brasil** - Para trazer informações de Previsão do Tempo atualizada. [Documentação](https://console.hgbrasil.com/documentation/weather)
   - Para utilizar este último, é necessário inserir a Key na variável keyPrevisao, do arquivo /js/news.js, localizada na linha **3**.
 
 ## Melhorias que podem ser implementadas:
