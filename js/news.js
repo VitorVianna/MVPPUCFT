@@ -1,6 +1,6 @@
 let urlAPIConversao = "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL";
 let woeIdRJ = "455825";
-let keyPrevisao = "20ef7949"
+let keyPrevisao = "ChaveAqui"
 let urlAPIPrevisaoTempo = "https://api.hgbrasil.com/weather?format=json-cors&woeid=" + woeIdRJ + "&key=" + keyPrevisao;
 
 
